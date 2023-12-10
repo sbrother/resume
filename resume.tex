@@ -21,59 +21,64 @@
 
     \section{\mysidestyle Professional\\Experience}
 
+    \textbf{Nextdoor}, San Francisco, CA / Park City, UT (Remote)  \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Staff Software Engineer} \hfill \textbf{Jan 2023 -- Present}\\
+    Tech lead on a team building a next generation ads platform from scratch
+    while gradually migrating Nextdoor's existing
+    {\raise.17ex\hbox{$\scriptstyle\sim$}}\$250M of revenue off of a legacy
+    platform powered by Google Ads Manager. Extensive cloud infrastructure
+    development to introduce, maintain, and monitor streaming and batch data
+    pipelines using Apache Beam in Kotlin, Flink, Kafka, and TimescaleDB on
+    Kubernetes/AWS.
+
     \textbf{Google}, Los Angeles, CA / Park City, UT (Remote)  \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Engineer} \hfill \textbf{Feb 2021 -- Present}\\
+    \textsl{Software Engineer} \hfill \textbf{Feb 2021 -- Jan 2023}\\
     Software engineer on an infrastructure team within Ads Privacy and Security,
     using natural language processing and machine learning to prevent
-    policy-violating ad impressions. Our systems handle 2M+ queries per second
-    and combine modern deep learning techniques with multi-tier human
-    evaluation pipelines. Additionally, I have a 20\% role building
+    policy-violating ad impressions. Our systems handled 2M+ queries per second
+    and combined modern deep learning techniques with multi-tier human
+    evaluation pipelines. Additionally, I had a 20\% role building
     remote sensing infrastructure and machine learning models for a stealth
     climate ``startup'' within Google.
 
-    \textbf{Pachama}, San Francisco, CA / Park City, UT (Remote)  \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Engineer} \hfill \textbf{Jul 2020 -- Feb 2021}\\
-    Worked on a small team to productionize Pachama's remote sensing
-    models using Python, Tensorflow, Kubernetes, Cloud Dataflow, and other GCP
-    technologies. Designed and built a data ingestion service to retrieve,
-    transform and cache satellite imagery and LiDAR point clouds for easy use in
-    both model training and production. Left to rejoin Google under their new
-    remote work policy.
+    \textbf{Authentic Artists}, Los Angeles, CA / San Francisco, CA / Park City, UT (Remote) \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Founding Engineer} \hfill \textbf{Jan 2019 -- Jan 2021}\\
+    Led a remote engineering team to build AI-powered audiovisual
+    experiences, including a cloud deep learning server for song generation, a
+    C++ constraint/transformation library for imposing additional musical style
+    on its output, and an automated Max/Ableton session for audio generation.
+    Coordinated with creative and executive teams to balance engineering and IP
+    development with artistic and business goals. See \url{warpsound.ai} or
+    \url{https://open.spotify.com/album/4ws0VXLBCNhk7tL033xfD5} for examples.
 
     \textbf{Cairn Labs}, Park City, UT \vspace{2mm}\\\vspace{1mm}%
-    \textsl{President and Founder} \hfill \textbf{Jan 2016 -- Mar 2020}\\
-    Lead a cross-functional team of 4-6 to design and build software
-    for clients, with a focus on applications that integrate
-    state-of-the-art NLP and machine learning. Notable projects/clients include:
+    \textsl{Founder \& Principal} \hfill \textbf{Jan 2016 -- Present}\\
+    Founded a successful boutique consultancy to design and build software
+    for clients, with a focus on applications that integrate state-of-the-art
+    NLP and machine learning. Managed a team of 2-6 depending on client load.
+    Most projects involve a multi-year timespan including the sales, design, and
+    implementation phases, followed by eventual transition to in-house
+    resources. Our clients have cumulatively raised over \$500M of venture
+    funding using our prototyping and fractional CTO services. A small selection
+    of notable projects includes:
 
     \begin{itemize}
-    \item Lead a remote (US-based) engineering team to build AI-powered audiovisual
-      experiences, including a cloud deep learning server for song generation, a
-      C++ constraint/transformation library for imposing additional musical style
-      on deep learning output, and an automated Max/Ableton session for audio
-      generation. Coordinated with creative and executive teams to balance
-      engineering and IP development with artistic and business goals. See
-      \url{warpsound.ai} for examples.
-    \item A deep learning based conversational UI framework to power
-      will.i.am's wireless earphones and other applications. Backed by Python,
+    \item \textbf{i.am+}: A deep learning based conversational UI framework to power
+      will.i.am's wireless earphones and other applications. Backed by
       Tensorflow, Prolog, and other technologies. Supports multiple languages,
-      extensible dialogue flows, and includes a type system that integrates with
-      a custom knowledge base. Our software had a significant role in the
-      success of the client's \$117M fundraising round (\url{https://goo.gl/iMvVTt}).
-    \item An offline-first, mobile first Electronic Health Records system
-      designed for the unique challenges of mobile refugee health clinics.
-      Currently deployed in Lebanon and Nicaragua (see Brotherton et al in
-      \emph{Selected Publications}).
-    \item An intelligent agent for a healthcare client that performs realtime
-      conversational analysis from raw audio, running a series of clinically
-      validated health classifiers on audio and text from realtime transcription
-      (see Demiris et al in \emph{Selected Publications}).
-    \item A risk scoring server for a client in the car insurance industry,
-      collecting realtime driving data and assigning machine-learning based
+      extensible dialogue flows, and a custom knowledge base. See
+      \url{https://goo.gl/iMvVTt}.
+    \item \textbf{Blue Cross Blue Shield}: A highly available machine learning
+      inference server used to predict asthma risk in real time from claims
+      records.
+    \item \textbf{Hikma Health}: An offline-first, mobile first Electronic
+      Health Records system designed for the unique challenges of mobile refugee
+      health clinics. Currently deployed in Lebanon and Nicaragua (see
+      Brotherton et al in \emph{Selected Publications}).
+    \item \textbf{Motion Insurance} A risk scoring server for car insurance,
+      collecting realtime driving data and assigning ML-based
       driver risk scores at a rate of 3000+ qps (see \url{motioninsurance.com}).
-    \item An advertising server to display appropriate event ticket offers
-      to users, based on user-level and page-level contextual targeting. Backed
-      by Elixir/Phoenix, Python, PostGIS, and React.js.
+
     \end{itemize}
 
     \pagebreak
@@ -110,8 +115,10 @@
 
 \section{\mysidestyle Programming\\Experience}
 
-\emph{Languages:} Python, C++, Erlang, Elixir, Mathematica,  C\#, F\#, Bash, C, \LaTeX \\
-\emph{Server Technology:} Kubernetes, Docker, GCP, Cassandra, Redis, PostgreSQL, ElasticSearch/Lucene
+\emph{Languages:} Python, Kotlin, C++, Erlang, Elixir, Mathematica,  C\#, F\#,
+Bash, C, \LaTeX \\
+\emph{Server Technology:} Kubernetes, Docker, GCP, AWS, Azure, Cassandra, Redis,
+PostgreSQL, ElasticSearch, Apache Beam, Apache Flink, TimescaleDB
 
 \end{resume}
 \end{document}
